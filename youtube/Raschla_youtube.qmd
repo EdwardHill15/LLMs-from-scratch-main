@@ -1,0 +1,99 @@
+---
+title: "Sebastian Raschka's Youtube Lesson's on Building LLM's from Scratch"
+---
+<br>
+<br>
+
+**VIDEO 1.** [Build an LLM from Scratch 1: Set up your code environment](https://www.youtube.com/watch?v=yAcWnfsZhzo)
+
+Links to the book: 
+
+[Amazon](https://amzn.to/4fqvn0D)
+
+[Manning](https://mng.bz/M96o)
+
+Link to Sebastian Raschka's Github respository: 
+
+[**Sebastian Raschka's GitHub Repository**](https://github.com/rasbt/LLMs-from-scratch.git)
+<br>
+This is a supplementary video explaining how to set up a Python environment using uv. 
+
+In particular, we are using `uv pip`, which is explained in this document: [uv pip explanation](https://github.com/rasbt/LLMs-from-scratch.git)
+
+Alternatively, the native `uv add` syntax (mentioned but not explicitly covered in this video) is described here.  
+[Native uv Python and package management](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/01_optional-python-setup-preferences/native-uv.md)
+<br>
+<br>
+
+**VIDEO 2.** [Build an LLM from Scratch 2: Working with text data](https://www.youtube.com/watch?v=341Rb8fJxY0)
+
+You can find additional bonus materials on GitHub:
+
+[Byte Pair Encoding (BPE) Tokenizer From Scratch](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/05_bpe-from-scratch/bpe-from-scratch.ipynb)
+
+[Comparing Various Byte Pair Encoding (BPE) Implementations](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/05_bpe-from-scratch/bpe-from-scratch.ipynb)
+
+[Understanding the Difference Between Embedding Layers and Linear Layers](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/02_bonus_bytepair-encoder/compare-bpe-tiktoken.ipynb)
+
+[Data sampling with a sliding window with number data](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/03_bonus_embedding-vs-matmul/embeddings-and-linear-layers.ipynb)
+
+[Managing Sources of Randomness When Training Deep Neural Networks](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/04_bonus_dataloader-intuition/dataloader-intuition.ipynb)  
+<br>
+<br>
+
+**VIDEO 3.** [Build an LLM from Scratch 3: Coding attention mechanisms](https://www.youtube.com/watch?v=-Ll8DtpNtvk)
+
+You can find additional bonus materials on GitHub:
+
+[Comparing Efficient Multi-Head Attention Implementations](ch05/02_alternative_weight_loading/weight-loading-hf-transformers.ipynb)
+
+[Understanding PyTorch Buffers](ch03/03_understanding-buffers)
+<br>
+<br>
+
+**VIDEO 4.** [Build an LLM from Scratch 4: Implementing a GPT model from Scratch To Generate Text](https://www.youtube.com/watch?v=YSAkgEarBGE)
+
+You can find additional bonus materials on GitHub
+
+[Converting GPT to Llama](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama)
+<br>
+<br>
+
+**VIDEO 5.** [Build an LLM from Scratch 5: Pretraining on Unlabeled Data](https://www.youtube.com/watch?v=Zar2TJv-sE0)
+
+You can find additional bonus materials on GitHub:
+
+[Pretraining GPT on the Project Gutenberg Dataset](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/03_bonus_pretraining_on_gutenberg)
+
+[PyTorch Performance Tips for Faster LLM Training](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/10_llm-training-speed)
+
+[Converting the GPT-2 architecture into Llama 2 and Llama 3](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/07_gpt_to_llama)
+<br>
+<br>
+
+**VIDEO 6.** [Build an LLM from Scratch 6: Finetuning for Classification](https://www.youtube.com/watch?v=5PFXJYme4ik)
+
+You can find additional bonus materials on GitHub:
+
+[Additional experiments finetuning different layers and using larger models](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/02_bonus_additional-experiments)
+
+[Finetuning different models on 50k IMDB movie review dataset](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/03_bonus_imdb-classification)
+
+[Building a User Interface to Interact With the GPT-based Spam Classifier](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/04_user_interface)
+<br>
+<br>
+
+**VIDEO 7.** [Build an LLM from Scratch 7: Instruction Finetuning](https://www.youtube.com/watch?v=4yNswvhPWCQ)
+
+You can find additional bonus materials on GitHub
+
+[Generating a Dataset for Instruction Finetuning](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/03_model-evaluation)
+
+[Direct Preference Optimization (DPO) for LLM Alignment](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/04_preference-tuning-with-dpo)[]
+
+[Building a User Interface to Interact With the Instruction Finetuned GPT Model](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/06_user_interface)
+
+[Evaluating Instruction Responses Using the OpenAI API and Ollama](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch07/03_model-evaluation)
+
+
+
